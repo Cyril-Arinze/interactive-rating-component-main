@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+  color:  hsl(0, 0%, 100%);
+  font-family: 'Overpass', sans-serif;
+  
+}
+h1, p{
+    padding: 1rem 0 0;
+}
+p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.feedback{
+    background-color:hsl(213, 19%, 18%);
+    max-width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 25px;
+           
+}
+
+.rating-btn, .Star-img{
+    background-color: hsl(216, 12%, 54%, .2);
+    padding: 1rem;
+    border: 0;
+    color:hsl(217, 12%, 63%);
+    border-radius: 50%;
+    font-family: 'Overpass', sans-serif;
+}
+.rating-btn{
+    margin:0;
+}
+.rating-btn:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit-btn{
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    border: 0;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    margin-top: 2rem;
+    padding:1rem 7rem;
+    max-width: 100%;    
+}
+.feedback-result{
+    
+    margin: 1rem auto;
+    border-radius: 25px;
+    padding: .5rem;
+    max-width: 60%;
+   background-color:  hsl(25, 97%, 53%)
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.btn-click{
+    background-color: hsl(217, 12%, 63%);
+}
+
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width:1024px) {
+    .feedback{
+        max-width:25%;
+    }
+
+    .submit-btn{
+        
+        padding:1rem 9rem;
+        font-size: 20px;
+        font-weight: 800;  
+    }
+
+    .rating-btn{
+        margin:1rem 1.5rem 0 0;
+    }
+
+    .btn5{
+        margin: 0;
+    }
+    .thank-img{
+        padding: 3rem;
+        padding-left: 5rem;
+    }
+}
