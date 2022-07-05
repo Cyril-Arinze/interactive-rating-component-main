@@ -18,6 +18,9 @@ p{
     color: hsl(217, 12%, 63%);
     font-size: 15px;
 }
+.visually-hidden{
+    display: none;
+}
 
 .feedback{
     background-color:hsl(213, 19%, 18%);
@@ -72,6 +75,7 @@ p{
 }
 .btn-click{
     background-color: hsl(217, 12%, 63%);
+    color: black;
 }
 
 
